@@ -1,0 +1,306 @@
+Last login: Fri Aug  9 14:12:43 on console
+Jae-Ryus-MacBook-Pro:~ jryu$ git --version
+xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
+Jae-Ryus-MacBook-Pro:~ jryu$ git --version
+xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
+Jae-Ryus-MacBook-Pro:~ jryu$ git config --global user.name jiminryu1
+Jae-Ryus-MacBook-Pro:~ jryu$ git --global useremail 22jimin.ryu@boiseschools.net
+unknown option: --global
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+Jae-Ryus-MacBook-Pro:~ jryu$ git config --list
+credential.helper=osxkeychain
+user.name=jiminryu1
+Jae-Ryus-MacBook-Pro:~ jryu$ ls
+Applications		Downloads		Library			Music			Send Registration
+Desktop			INCAInternet		MacKeeper Backups	Pictures		Sites
+Documents		Jimin			Movies			Public			avi
+Jae-Ryus-MacBook-Pro:~ jryu$ cd Desktop
+Jae-Ryus-MacBook-Pro:Desktop jryu$ ls
+Minecraft.app
+Jae-Ryus-MacBook-Pro:Desktop jryu$ cd Minecraft.app
+Jae-Ryus-MacBook-Pro:Minecraft.app jryu$ ls
+Contents
+Jae-Ryus-MacBook-Pro:Minecraft.app jryu$ cd Contents
+Jae-Ryus-MacBook-Pro:Contents jryu$ ls
+Info.plist		MacOS			Minecraft Updater.app	Resources		_CodeSignature		runtime
+Jae-Ryus-MacBook-Pro:Contents jryu$ cd ..
+Jae-Ryus-MacBook-Pro:Minecraft.app jryu$ cd ..
+Jae-Ryus-MacBook-Pro:Desktop jryu$ cd ~
+Jae-Ryus-MacBook-Pro:~ jryu$ cd Contents
+-bash: cd: Contents: No such file or directory
+Jae-Ryus-MacBook-Pro:~ jryu$ git config --list
+credential.helper=osxkeychain
+user.name=jiminryu1
+Jae-Ryus-MacBook-Pro:~ jryu$ ls
+Applications		Movies
+Desktop			Music
+Documents		Pictures
+Downloads		Public
+INCAInternet		Send Registration
+Jimin			Sites
+Library			avi
+MacKeeper Backups
+Jae-Ryus-MacBook-Pro:~ jryu$ cd Jimin
+Jae-Ryus-MacBook-Pro:Jimin jryu$ ls
+Cars.2006.DVDRip.WMV9.AC3.5.1CH-072.CD1.avi
+Cars.2006.DVDRip.WMV9.AC3.5.1CH-072.CD2.avi
+ElementaryBdry.pdf
+Ice Age.2002.DVDrip.XviD.AC3.2AUDIO.CD1-WAF.avi
+Ice Age.2002.DVDrip.XviD.AC3.2AUDIO.CD1-WAF.smi
+Ice Age.2002.DVDrip.XviD.AC3.2AUDIO.CD2-WAF.avi
+Ice Age.2002.DVDrip.XviD.AC3.2AUDIO.CD2-WAF.smi
+Jimin-20090510.pptx
+NSF Funding Opportunities.docx
+Shirk - Haunted (1).mp3
+Shirk - Haunted.mp3
+Thumbs.db
+Transformerani
+fun20090422.wav
+fun20090428.wav
+meTaL-Toystory_AC3_KOREAN_CD1.avi
+untitled folder
+~$F Funding Opportunities.docx
+트,랜,스,포,머.T,r,a,n,s,f,o,r,m,e,r,s.2007.DVDRip.XviD.AC3.CD1-OULP.avi
+트,랜,스,포,머.T,r,a,n,s,f,o,r,m,e,r,s.2007.DVDRip.XviD.AC3.CD1-OULP.smi
+트,랜,스,포,머.T,r,a,n,s,f,o,r,m,e,r,s.2007.DVDRip.XviD.AC3.CD2-OULP.avi
+트,랜,스,포,머.T,r,a,n,s,f,o,r,m,e,r,s.2007.DVDRip.XviD.AC3.CD2-OULP.smi
+트,랜,스,포,머.T,r,a,n,s,f,o,r,m,e,r,s.2007.DVDRip.XviD.AC3.CD3-OULP.avi
+트,랜,스,포,머.T,r,a,n,s,f,o,r,m,e,r,s.2007.DVDRip.XviD.AC3.CD3-OULP.smi
+Jae-Ryus-MacBook-Pro:Jimin jryu$ cd ..
+Jae-Ryus-MacBook-Pro:~ jryu$ cd..
+-bash: cd..: command not found
+Jae-Ryus-MacBook-Pro:~ jryu$ cd ..
+Jae-Ryus-MacBook-Pro:Users jryu$ ls
+Guest	Shared	jryu
+Jae-Ryus-MacBook-Pro:Users jryu$ cd Desktop
+-bash: cd: Desktop: No such file or directory
+Jae-Ryus-MacBook-Pro:Users jryu$ cd ..
+Jae-Ryus-MacBook-Pro:/ jryu$ ls
+Applications
+Incompatible Software
+Library
+Network
+System
+User Guides And Information
+Users
+Volumes
+bin
+cores
+dev
+etc
+home
+installer.failurerequests
+net
+private
+sbin
+tmp
+usr
+var
+vm
+Jae-Ryus-MacBook-Pro:/ jryu$ cd ..
+Jae-Ryus-MacBook-Pro:/ jryu$ ls
+Applications
+Incompatible Software
+Library
+Network
+System
+User Guides And Information
+Users
+Volumes
+bin
+cores
+dev
+etc
+home
+installer.failurerequests
+net
+private
+sbin
+tmp
+usr
+var
+vm
+Jae-Ryus-MacBook-Pro:/ jryu$ cd applications
+Jae-Ryus-MacBook-Pro:applications jryu$ ls
+App Store.app
+Automator.app
+Automator.zip
+BlueStacks.app
+Calculator.app
+Calendar.app
+Chess.app
+CoRD 3.app
+Contacts.app
+DVD Player.app
+Dashboard.app
+Delfino
+Dictionary.app
+Epic Games Launcher.app
+FL Studio 20.app
+FaceTime.app
+Firefox.app
+Font Book.app
+GarageBand 5.1
+Google Chrome.app
+Image Capture.app
+LEGO MINDSTORMS NXT
+Launchpad.app
+Mail.app
+Maps.app
+Messages.app
+Microsoft Office 2008
+Microsoft Silverlight
+Minecraft 2.app
+Minecraft 3.app
+Minecraft.app
+Mission Control.app
+Notes.app
+OBS.app
+Photo Booth.app
+Photos.app
+Preview.app
+QuickTime Player.app
+Reminders.app
+Remote Desktop Connection.app
+Remove Sophos Endpoint.app
+Safari.app
+Scratch 1.4
+Siri.app
+Skype.app
+Sophos Anti-Virus.app
+Spotify.app
+Steam.app
+Stickies.app
+SyphonInject.app
+System Preferences.app
+TextEdit.app
+Time Machine.app
+Utilities
+Veraport
+a Bars #2.flp
+a Bars.flp
+a heat asf .mp3
+a heat asf.flp
+iBooks.app
+iDVD.app
+iPhoto.app
+iTunes.app
+mediaDownloader.app
+nProtect Netizen
+Jae-Ryus-MacBook-Pro:applications jryu$ cd a Bars #2.flp
+-bash: cd: a: No such file or directory
+Jae-Ryus-MacBook-Pro:applications jryu$ cd FL Studio
+-bash: cd: FL: No such file or directory
+Jae-Ryus-MacBook-Pro:applications jryu$ cd FL Studio20.app
+-bash: cd: FL: No such file or directory
+Jae-Ryus-MacBook-Pro:applications jryu$ 
+Jae-Ryus-MacBook-Pro:applications jryu$ 
+Jae-Ryus-MacBook-Pro:applications jryu$ 
+Jae-Ryus-MacBook-Pro:applications jryu$ 
+Jae-Ryus-MacBook-Pro:applications jryu$ 
+Jae-Ryus-MacBook-Pro:applications jryu$ 
+Jae-Ryus-MacBook-Pro:applications jryu$ 
+Jae-Ryus-MacBook-Pro:applications jryu$ 
+Jae-Ryus-MacBook-Pro:applications jryu$ 
+Jae-Ryus-MacBook-Pro:applications jryu$ 
+Jae-Ryus-MacBook-Pro:applications jryu$ 
+Jae-Ryus-MacBook-Pro:applications jryu$ 
+Jae-Ryus-MacBook-Pro:applications jryu$ sudo
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt]
+            [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt]
+            [-U user] [-u user] [command]
+usage: sudo [-AbEHknPS] [-C num] [-g group] [-h host]
+            [-p prompt] [-u user] [VAR=value] [-i|-s]
+            [<command>]
+usage: sudo -e [-AknS] [-C num] [-g group] [-h host]
+            [-p prompt] [-u user] file ...
+Jae-Ryus-MacBook-Pro:applications jryu$ shell
+-bash: shell: command not found
+Jae-Ryus-MacBook-Pro:applications jryu$ cd ..
+Jae-Ryus-MacBook-Pro:/ jryu$ cd ~
+Jae-Ryus-MacBook-Pro:~ jryu$ git config --global user.name jiminryu
+Jae-Ryus-MacBook-Pro:~ jryu$ git config --global user.email 54377533+jiminryu1@users.noreply.github.com
+Jae-Ryus-MacBook-Pro:~ jryu$ git config --list
+credential.helper=osxkeychain
+user.name=jiminryu
+user.email=54377533+jiminryu1@users.noreply.github.com
+Jae-Ryus-MacBook-Pro:~ jryu$ git config --global user.name jiminryu1
+Jae-Ryus-MacBook-Pro:~ jryu$ git config --global user.email 54377533+jiminryu1@users.noreply.github.com
+Jae-Ryus-MacBook-Pro:~ jryu$ git config --list
+credential.helper=osxkeychain
+user.name=jiminryu1
+user.email=54377533+jiminryu1@users.noreply.github.com
+Jae-Ryus-MacBook-Pro:~ jryu$ git clone https://github.com/jiminryu1/GitWorkshop.git
+Cloning into 'GitWorkshop'...
+remote: Enumerating objects: 21, done.
+remote: Counting objects: 100% (21/21), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 21 (delta 5), reused 12 (delta 4), pack-reused 0
+Unpacking objects: 100% (21/21), done.
+Jae-Ryus-MacBook-Pro:~ jryu$ ls
+Applications		Jimin			Public
+Desktop			Library			Send Registration
+Documents		MacKeeper Backups	Sites
+Downloads		Movies			avi
+GitWorkshop		Music
+INCAInternet		Pictures
+Jae-Ryus-MacBook-Pro:~ jryu$ cd Desktop
+Jae-Ryus-MacBook-Pro:Desktop jryu$ ls
+Jae-Ryus-MacBook-Pro:Desktop jryu$ ls
+Jae-Ryus-MacBook-Pro:Desktop jryu$ cd ..
+Jae-Ryus-MacBook-Pro:~ jryu$ ls
+Applications		Jimin			Public
+Desktop			Library			Send Registration
+Documents		MacKeeper Backups	Sites
+Downloads		Movies			avi
+GitWorkshop		Music
+INCAInternet		Pictures
+Jae-Ryus-MacBook-Pro:~ jryu$ mv GitWorkshop Desktop/GetWorkshop
+Jae-Ryus-MacBook-Pro:~ jryu$ cd Desktop
+Jae-Ryus-MacBook-Pro:Desktop jryu$ ls
+GetWorkshop
+Jae-Ryus-MacBook-Pro:Desktop jryu$ cd GetWorkshop
+Jae-Ryus-MacBook-Pro:GetWorkshop jryu$ ls
+README.md
+Jae-Ryus-MacBook-Pro:GetWorkshop jryu$ gedit README.md
+-bash: gedit: command not found
+Jae-Ryus-MacBook-Pro:GetWorkshop jryu$ gedit README.md
+-bash: gedit: command not found
+Jae-Ryus-MacBook-Pro:GetWorkshop jryu$ cd README.md
+-bash: cd: README.md: Not a directory
+Jae-Ryus-MacBook-Pro:GetWorkshop jryu$ gedit README.md
+-bash: gedit: command not found
+Jae-Ryus-MacBook-Pro:GetWorkshop jryu$ gedit
+-bash: gedit: command not found
+Jae-Ryus-MacBook-Pro:GetWorkshop jryu$ nano README.md
+
+  GNU nano 2.0.6             File: README.md                      Modified  
+
+# GitWorkshop
+
+To complete this assignment, edit this README by doing the following,
+
+- Indicate your first and last name
+Jimin Ryu
+- Share 2 or 3 things about yourself
+I play the piano and basketball
+- Indiate your goal(s) you have for this course
+I hope to become an efficient coder so I can use my ability for my future.
+
+Once your are done, save this file.
+
+Test
+
+
+
+
+
+
+^G Get Help ^O WriteOut ^R Read File^Y Prev Page^K Cut Text ^C Cur Pos
+^X Exit     ^J Justify  ^W Where Is ^V Next Page^U UnCut Tex^T To Spell
